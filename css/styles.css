@@ -2,7 +2,6 @@ body {
   font-family: "Roboto";
   font-style: normal;
   color: #212121;
-  width: 1660px;
   margin: 0 auto;
 }
 :root {
@@ -209,13 +208,16 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  padding: 20px 24px 4px 24px;
 }
+
 .projects-type {
   color: #757575;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
+  padding: 0px 24px 20px 24px;
 }
 .footer-box {
   background: #2f303a;
@@ -236,6 +238,7 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0px 15px;
 }
 .nav-list {
   display: flex;
@@ -274,9 +277,13 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.adventages-color-box {
+  background-color: #e5e5e5;
+}
 .advantages-box {
   display: flex;
   column-gap: 30px;
+  margin: 0 auto;
 }
 .advantages-box-inside {
   display: flex;
@@ -286,9 +293,8 @@ body {
   row-gap: 10px;
 }
 .activity-header-box {
-  margin-top: 94px;
-  margin-bottom: 50px;
   justify-content: center;
+  margin-top: 94px;
 }
 .card-activity {
   display: flex;
@@ -296,8 +302,9 @@ body {
   column-gap: 30px;
   padding: 0;
   justify-content: space-between;
-  margin-top: 50px;
-  margin-bottom: 94px;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 94px;
 }
 .images-activity-style {
   flex-basis: calc((100%-60px) / 3);
@@ -310,10 +317,9 @@ body {
   display: flex;
   flex-wrap: nowrap;
   column-gap: 30px;
-  padding: 0;
   margin: 0;
 }
-.images-team-style {
+.card-team-style {
   flex-basis: calc((100%-90px) / 4);
   list-style: none;
   background-color: var(--font-color2);
@@ -350,4 +356,19 @@ body {
 }
 .header-border {
   border-bottom: 1px solid #ececec;
+}
+.card-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 20px;
+  flex-basis: calc((100% - 40px) / 3);
+  margin-bottom: 94px;
+}
+.card-portfolio-style {
+  list-style-type: none;
+  border: 1px solid #eeeeee;
+}
+.portfolio-box {
+  background-color: #ffffff;
 }
