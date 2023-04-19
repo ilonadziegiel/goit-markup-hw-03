@@ -252,14 +252,15 @@ body {
 .nav-list {
   display: flex;
   border-bottom: 1px solid #ececec;
+  justify-content: space-between;
 }
 .nav-list-logo {
   display: flex;
   align-items: center;
   margin: 0;
-  margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 25px;
+  flex-grow: 1;
 }
 .nav-list-menu {
   display: flex;
@@ -270,7 +271,7 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
   margin: 0;
-  margin-right: 371px;
+  flex-grow: 2;
 }
 .nav-list-contact {
   display: flex;
